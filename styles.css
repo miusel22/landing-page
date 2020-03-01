@@ -1,0 +1,134 @@
+body{
+    background-color: rgb(17, 16, 32);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+
+.color{
+    background-color: rgb(17, 16, 32);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+.container{
+    width: 10000px; /*el ancho*/
+    margin: 0 auto;
+}
+
+
+.banner .banner__hero{
+    display: flex;
+justify-content: space-between;
+text-align: center;
+
+}
+.banner__text-hero{
+padding: 80px 0 0 80px;
+font-family: monospace;
+font-size: 18px;
+}
+
+.banner__hero img{
+    border-radius: 10px;
+}
+
+
+
+.promo{
+    display: flex;
+    
+    
+}
+
+.skins__box{
+    margin:15px;
+    background:url(./img/article.jpg);
+    box-shadow: 0px 1px  8px 2pxrgb(148, 127, 11);/*le da una sombra*/
+    border-radius: 10px;
+    text-align: center;
+    width: 33%;
+}
+
+.skins__box img{
+    border-radius: 10px;
+}
+
+.skins__card{
+    margin: 20px;
+    padding:5px;
+}
+
+.skins__Card button{
+    background-color: rgb(148, 127, 11);
+    color: rgb(58, 50, 17);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.skins__Card button:hover{
+    background-color: rgb(126, 110, 21);
+    color: rgb(3, 3, 3);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+ 
+.experience{
+    display:flex;
+    margin: 100px;
+    
+
+}
+.experience__box{
+    margin: 15px;
+    box-shadow: 0px 1px 6px 2px rgb(31, 160, 247);
+    border-radius: 10px;
+    width: 50%;
+
+}
+
+.experience__body{
+    box-shadow: 0px -10px 30px 2px whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.experience__box img{
+    border-radius: 10px;
+}
+
+.tachado{
+    text-decoration: line-through;
+    color: red;
+}
+
+.video{
+    text-align: center;
+    color: rgb(126, 110, 21);
+}
+
+.hr{
+    color: black;
+}
+.color{
+    color:  rgb(126, 110, 21);
+}
+
+
+.footer{
+    color: rgb(126, 110, 21);
+    background-color: rgb(41, 38, 73);
+}
+.copyrigth p{
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: italic;
+}
